@@ -1,5 +1,7 @@
 # Discovery Service
 
+![CI](https://github.com/jjrmch/discovery-service/actions/workflows/ci.yml/badge.svg)
+
 Servidor Eureka de la plataforma de gestión de biblioteca. Es el registro donde se dan de alta todos los microservicios del sistema (gateway, catalog, transactions y customer), de forma que puedan encontrarse entre ellos por nombre sin necesidad de conocer IPs ni puertos de antemano.
 
 En este proyecto Eureka está en modo standalone (un solo nodo, sin registrarse a sí mismo), que es suficiente para el entorno de desarrollo y para el despliegue con docker-compose.
