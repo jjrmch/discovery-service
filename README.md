@@ -1,6 +1,7 @@
 # Discovery Service
 
 ![CI](https://github.com/jjrmch/discovery-service/actions/workflows/ci.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Servidor Eureka de la plataforma de gestión de biblioteca. Es el registro donde se dan de alta todos los microservicios del sistema (gateway, catalog, transactions y customer), de forma que puedan encontrarse entre ellos por nombre sin necesidad de conocer IPs ni puertos de antemano.
 
